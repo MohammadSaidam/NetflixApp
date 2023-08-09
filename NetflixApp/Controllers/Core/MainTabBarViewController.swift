@@ -19,7 +19,6 @@ class MainTabBarViewController: UITabBarController {
         let v4 = UINavigationController(rootViewController: DonwnloadsViewController())
         
         
-        
         /*
          This code that put title in tab bar
          the same
@@ -32,6 +31,7 @@ class MainTabBarViewController: UITabBarController {
         
         
         // this code that put icon in tab bar
+        // that icons gettings from SF System
         v1.tabBarItem.image = UIImage(systemName: "house")
         v2.tabBarItem.image = UIImage(systemName: "play.circle")
         v3.tabBarItem.image = UIImage(systemName: "magnifyingglass")
