@@ -24,6 +24,12 @@
 		BB928ABF2A7CF347002EB024 /* SearchResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB928ABE2A7CF347002EB024 /* SearchResultsViewController.swift */; };
 		BBA73E742A775F60008D8A50 /* APICaller.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBA73E732A775F60008D8A50 /* APICaller.swift */; };
 		BBA73E762A776EBA008D8A50 /* Title.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBA73E752A776EBA008D8A50 /* Title.swift */; };
+		BBB77D4A2A84F50500EACAA0 /* HomeViewConrollerExtention.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB77D492A84F50500EACAA0 /* HomeViewConrollerExtention.swift */; };
+		BBB77D4C2A84F6B100EACAA0 /* UpComingViewControllerExtention.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB77D4B2A84F6B100EACAA0 /* UpComingViewControllerExtention.swift */; };
+		BBB77D4E2A84F76D00EACAA0 /* SearchViewControllerExtention.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB77D4D2A84F76D00EACAA0 /* SearchViewControllerExtention.swift */; };
+		BBB77D502A84F7FF00EACAA0 /* DonwnloadsViewControllerExtention.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB77D4F2A84F7FF00EACAA0 /* DonwnloadsViewControllerExtention.swift */; };
+		BBB77D522A84F88F00EACAA0 /* CollectionViewTableViewCellExtention.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB77D512A84F88F00EACAA0 /* CollectionViewTableViewCellExtention.swift */; };
+		BBB77D542A84F9AB00EACAA0 /* SearchResultsViewControllerExtention.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB77D532A84F9AB00EACAA0 /* SearchResultsViewControllerExtention.swift */; };
 		BBB842022A814E55005A571F /* TitlePreviewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBB842012A814E55005A571F /* TitlePreviewModel.swift */; };
 		BBD16D002A7A3CC8004D60B8 /* TitleCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBD16CFF2A7A3CC8004D60B8 /* TitleCollectionViewCell.swift */; };
 		BBD16D032A7A3F31004D60B8 /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = BBD16D022A7A3F31004D60B8 /* SDWebImage */; };
@@ -54,6 +60,12 @@
 		BB928ABE2A7CF347002EB024 /* SearchResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultsViewController.swift; sourceTree = "<group>"; };
 		BBA73E732A775F60008D8A50 /* APICaller.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APICaller.swift; sourceTree = "<group>"; };
 		BBA73E752A776EBA008D8A50 /* Title.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Title.swift; sourceTree = "<group>"; };
+		BBB77D492A84F50500EACAA0 /* HomeViewConrollerExtention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewConrollerExtention.swift; sourceTree = "<group>"; };
+		BBB77D4B2A84F6B100EACAA0 /* UpComingViewControllerExtention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpComingViewControllerExtention.swift; sourceTree = "<group>"; };
+		BBB77D4D2A84F76D00EACAA0 /* SearchViewControllerExtention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewControllerExtention.swift; sourceTree = "<group>"; };
+		BBB77D4F2A84F7FF00EACAA0 /* DonwnloadsViewControllerExtention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DonwnloadsViewControllerExtention.swift; sourceTree = "<group>"; };
+		BBB77D512A84F88F00EACAA0 /* CollectionViewTableViewCellExtention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewTableViewCellExtention.swift; sourceTree = "<group>"; };
+		BBB77D532A84F9AB00EACAA0 /* SearchResultsViewControllerExtention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultsViewControllerExtention.swift; sourceTree = "<group>"; };
 		BBB842012A814E55005A571F /* TitlePreviewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitlePreviewModel.swift; sourceTree = "<group>"; };
 		BBD16CFF2A7A3CC8004D60B8 /* TitleCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TitleCollectionViewCell.swift; sourceTree = "<group>"; };
 		BBE899982A7323770085C1E1 /* CollectionViewTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewTableViewCell.swift; sourceTree = "<group>"; };
@@ -173,6 +185,12 @@
 			isa = PBXGroup;
 			children = (
 				BB83744E2A7A27B200771569 /* Extentions.swift */,
+				BBB77D492A84F50500EACAA0 /* HomeViewConrollerExtention.swift */,
+				BBB77D4B2A84F6B100EACAA0 /* UpComingViewControllerExtention.swift */,
+				BBB77D4D2A84F76D00EACAA0 /* SearchViewControllerExtention.swift */,
+				BBB77D4F2A84F7FF00EACAA0 /* DonwnloadsViewControllerExtention.swift */,
+				BBB77D512A84F88F00EACAA0 /* CollectionViewTableViewCellExtention.swift */,
+				BBB77D532A84F9AB00EACAA0 /* SearchResultsViewControllerExtention.swift */,
 			);
 			path = Resourses;
 			sourceTree = "<group>";
@@ -263,10 +281,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BBB77D4A2A84F50500EACAA0 /* HomeViewConrollerExtention.swift in Sources */,
 				BB47B62D2A726FF600B6F604 /* HomeViewController.swift in Sources */,
 				BB928ABF2A7CF347002EB024 /* SearchResultsViewController.swift in Sources */,
 				BBE8999B2A732DE10085C1E1 /* HeroHeaderUIView.swift in Sources */,
 				BB8BFD002A83AAE000080813 /* DataPersistenceManager.swift in Sources */,
+				BBB77D4C2A84F6B100EACAA0 /* UpComingViewControllerExtention.swift in Sources */,
 				BB47B6332A7270C500B6F604 /* DonwnloadsViewController.swift in Sources */,
 				BB47B6312A72707300B6F604 /* SearchViewController.swift in Sources */,
 				BBA73E762A776EBA008D8A50 /* Title.swift in Sources */,
@@ -274,16 +294,20 @@
 				BB47B6152A7269C900B6F604 /* AppDelegate.swift in Sources */,
 				BBD16D002A7A3CC8004D60B8 /* TitleCollectionViewCell.swift in Sources */,
 				BB4655D52A80CCCC00550CCE /* TitlePreviewViewController.swift in Sources */,
+				BBB77D542A84F9AB00EACAA0 /* SearchResultsViewControllerExtention.swift in Sources */,
 				BBE899992A7323770085C1E1 /* CollectionViewTableViewCell.swift in Sources */,
 				BBB842022A814E55005A571F /* TitlePreviewModel.swift in Sources */,
 				BB83744F2A7A27B200771569 /* Extentions.swift in Sources */,
 				BBEBF73C2A7B9F8D00D90536 /* TitleTableViewCell.swift in Sources */,
+				BBB77D4E2A84F76D00EACAA0 /* SearchViewControllerExtention.swift in Sources */,
 				BB4655D32A80C5EC00550CCE /* YoutubeSearchResponse.swift in Sources */,
 				BB47B61F2A7269C900B6F604 /* NetflixApp.xcdatamodeld in Sources */,
 				BBA73E742A775F60008D8A50 /* APICaller.swift in Sources */,
+				BBB77D522A84F88F00EACAA0 /* CollectionViewTableViewCellExtention.swift in Sources */,
 				BBEBF73E2A7BAE2800D90536 /* TitleViewModel.swift in Sources */,
 				BB47B62F2A72703F00B6F604 /* UpComingViewController.swift in Sources */,
 				BB47B6172A7269C900B6F604 /* SceneDelegate.swift in Sources */,
+				BBB77D502A84F7FF00EACAA0 /* DonwnloadsViewControllerExtention.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,11 +444,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = CSHNH68384;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = NetflixApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Netflix;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -448,11 +474,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = NO;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = CSHNH68384;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = NetflixApp/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Netflix;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";

@@ -65,8 +65,22 @@ class TitlePreviewViewController: UIViewController {
         view.addSubview(webView)
         configeConstrintes()
     
+        // This code hidden tabbar in TitlePreviewViewController
+        title = "Movie Detailes"
+        navigationController?.navigationBar.prefersLargeTitles = false
+        navigationController?.navigationItem.largeTitleDisplayMode = .always
+        self.tabBarController?.tabBar.isHidden = true
+    
        
     }
+
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        title = "Movie Detailes"
+        // This code hidden tabbar in TitlePreviewViewController
+        self.tabBarController?.tabBar.isHidden = true
+    }
+   
     
     func  configeConstrintes(){
         let webViewConstraints = [
@@ -83,8 +97,8 @@ class TitlePreviewViewController: UIViewController {
         ]
         
         let overviewLabelConstraints = [
-            overviewLable.topAnchor.constraint(equalTo: TitleLabel.bottomAnchor, constant: 15),
-            overviewLable.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 20),
+            overviewLable.topAnchor.constraint(equalTo: TitleLabel.bottomAnchor, constant: 10),
+            overviewLable.leadingAnchor.constraint(equalTo: view.leadingAnchor, constant: 15),
             overviewLable.trailingAnchor.constraint(equalTo: view.trailingAnchor)
         ]
         
